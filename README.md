@@ -1,8 +1,12 @@
-## Basic backend API for simple movie MongoDB database.
+## Basic backend API for simple movie database
+
+This API is created in Node.js with the help of Express. The database used is MongoDB with mongoose. 
 
 Database is created on localhost (this will be configurable in the future) and requires active installation of MongoDB.
 
-This API is able to use four basic HTTP methods (get, post put and delete).
+This API is able to use four basic HTTP methods (get, post, put and delete).
+
+For validation, the Joi module as well as implicit mongoose validation is used.
 
 To install dependencies, type `npm install` in the app root directory.
 
