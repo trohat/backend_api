@@ -2,6 +2,8 @@
 
 This API is created in Node.js with the help of Express. The database used is MongoDB with mongoose. 
 
+This API is used as a base for [Node.js articles on ITnetwork](https://www.itnetwork.cz/javascript/nodejs/rest-api-soap-graph-a-json).
+
 Database is created on localhost (this will be configurable in the future) and requires active installation of MongoDB.
 
 This API is able to use four basic HTTP methods (get, post, put and delete).
